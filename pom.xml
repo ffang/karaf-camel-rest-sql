@@ -31,7 +31,7 @@
 
     <!-- configure the versions you want to use here -->
     <camel.version>2.19.1</camel.version>
-    <karaf.version>4.0.8</karaf.version>
+    <karaf.version>4.2.2-SNAPSHOT</karaf.version>
     <fabric8.version>2.3.2</fabric8.version>
     <spring.features.version>3.0.4</spring.features.version>
     <mysql.version>5.1.26</mysql.version>
@@ -122,7 +122,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.karaf.features</groupId>
-      <artifactId>spring</artifactId>
+      <artifactId>spring-legacy</artifactId>
       <classifier>features</classifier>
       <version>${karaf.version}</version>
       <type>xml</type>
